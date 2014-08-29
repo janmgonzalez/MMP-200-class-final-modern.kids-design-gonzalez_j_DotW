@@ -1,0 +1,167 @@
+/* style sheet for DesignersOfTheWorld.com */
+
+/* HERE IS WHERE YOU DO ALL YOUR DESIGN WORK, AND YOU CAN START BY MODIFYING THE LINES BELOW */
+/*feel free to style any text level element (see on html5doctor.com) such as <i> <em> or <b> or use these approved classes for 
+effect (pullQuote or highLight or borderEffect or ShadowDrop or activeSection or activePage) stick to these, because if you use 
+a class name or id name that you made up, it will cause the site to malfunction on the other designer pages.  */
+
+* {  margin: 0px; }
+
+html, body {height: 100%;}
+html{}
+
+body { width: 1100px; margin: auto; 
+	background:#fff; 
+	font-family: Helvetica, Arial, sans-serif; 
+	text-align: justify;
+	color: #000; 
+	font-size: 18px;
+	background-image: url("lois/images/paint-jar.png");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+
+	
+}
+
+header {margin-bottom: 40px;}
+
+#logo{background-image: url("lois/images/glKids-1.png"); /*200 px by 200 px*/
+		background-repeat: no-repeat;
+		background-color: ;
+		margin: 0px;
+		height: 200px;
+		 }
+
+#logo h1{margin-left: 200px; font-size: 55px;  color:#33A7E4; padding-top: 130px; /*text-shadow:5px 5px 5px #000*/;
+	background-image: url("lois/images/paint_splatter.png")  }
+
+h1, h2 {color:#fff;
+	font-family: Helvetica, Arial, sans-serif; font-size: 35px; }
+
+p{margin-bottom: 10px; padding:2px; }
+
+
+
+
+
+nav {width: 400px;  margin-left: 135px; /*margin-top:5px;*/ font-family: Helvetica, Arial, sans-serif;}
+nav ul {list-style-type:none; }
+nav ul li {float: left; padding:2px; height:30px; margin:1px; background-color: red; border-radius: 10px 10px 10px 10px; /*height:20px;*/}
+nav ul li a:link{text-decoration: none; height: 30px;
+	border-radius: 10px 10px 10px 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Helvetica, Arial, sans-serif;;
+	font-size:25px;
+	margin: 2px;
+	/*padding:3px ;*/
+	text-decoration:none;}
+nav ul li:hover{background-color:#F43779;  height:30px; color: #000; border-radius: 10px 10px 10px 10px;}
+
+form {width: 200px; color:#fff;
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 13px; float: right; 
+	background-color: red; 
+	border-radius: 2px; margin-right:2px;}
+
+
+#navSecondary {width: 280px; height: 100%; 
+	margin-top:60px; padding:5px; 
+	float: left; 
+	font-family: Helvetica, Arial, sans-serif;display: inline;
+	text-align: left; }
+
+#navSecondary ul {list-style-type: none;}
+
+#navSecondary ul li{ width: 160px; border-radius: 10px 10px 10px 10px; margin:2px; border-top: 1px solid blue;}
+
+#navSecondary ul li a:link{text-decoration: none; width:160px; 
+	background-color:#33A7E4;	
+	border-radius: 10px 10px 10px 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:20px;
+	padding:3px ;
+	text-decoration:none;
+	}
+#navSecondary ul li a:hover{background-color: #F43779; border-radius: 10px 10px 10px 10px;}
+#navSecondary a{color: #fff;}
+
+
+
+
+
+#designerName {margin-bottom: 40px; height: 60px; width: 1100px;
+	background:#33A7E4; 
+	border-radius: 10px 10px 10px;
+	background-image: url("lois/images/Paint-Drops.png");}
+#designerName h1 {font-size:45px; color: rgb(255,255,255);
+		}
+
+
+
+
+
+
+
+
+#thirdNav {margin-bottom: 40px; font-family: Helvetica, Arial, sans-serif;}
+#thirdNav ul {list-style-type: none;}
+#thirdNav ul li {float: left; padding:0px; height:35px; background-color: red; margin:1px; border-radius: 10px 10px 10px 10px;}
+#thirdNav ul li a:link{text-decoration: none; width:120px;font-size: 18px; 
+	background-color:red;	
+	border-radius: 10px 10px 10px 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Helvetica, Arial, sans-serif;;
+	font-size:25px;
+	text-align: center;
+	padding:3px ;
+	text-decoration:none;
+	}
+
+/*#thirdNav li:hover{background-color: #aaa;}*/
+#thirdNav ul li a:hover{ background-color:#F43779; color: #fff; height: 29px; border-radius: 10px 10px 10px;}
+#thirdNav a{color: #fff;}
+
+
+main {padding: px; width: 750px; 
+	float: left;
+	margin-top: 5px;
+	background-color: rgba(255,255,5,0.5);
+	border-radius: 10px 10px 10px;}
+
+main h2{color:#33A7E4;}
+
+/*figure {display:inherit; width: 250px; height: 190px; border:solid green 2px; background-image: url("lois/images/logo.png");}
+figcaption {text-align:center; margin-top:100px; z-index:5; background: rgba(25,35,15,0.5);}
+*/
+
+figure {display:inherit; background: none;}
+
+figure.firstPortrait {width: auto; float: right; margin:10px; margin-bottom: 0px;}
+
+figure.secondPortrait {width: 200px;float: right; margin:10px; margin-bottom: 0px; }
+
+figure.bigleft {float: left; width: 500px;}
+
+figure.bigright {float: left; width: 500px;}
+
+figure.rightsquare {float: right; width:150px; margin-bottom: 8px;}
+
+figure.leftcircle {float: right; width:200px; margin-bottom:8px; border:none;}
+
+figcaption {text-align: center; font-size: .8em; clear:both; margin-top:0px; padding-top: 0px; float:none; position:relative; z-index: 1; background-color: rgba(25,35,15,0.5);}
+
+footer { clear:both; display: block; 
+	padding:5px; 
+	color: white; background: #33A7E4; 
+	text-align: center; 
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	}
